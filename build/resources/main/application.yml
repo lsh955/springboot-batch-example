@@ -1,13 +1,12 @@
 spring:
-  batch:
-    job:
-      enabled: false
+  profiles:
+    active: mariadb
 ---
 spring:
   profiles: mariadb
   datasource:
     hikari:
+      driver-class-name: org.mariadb.jdbc.Driver
       jdbc-url: jdbc:mariadb://codedot.co.kr:3306/test_user_01?characterEncoding=UTF-8
       username: test_user_01
       password: dl945pa
-      driver-class-name: org.mariadb.jdbc.Driver
