@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ca1348-0156-4100-97ba-9503a9d2b5f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/flow/StepNextConditionalJobConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -258,7 +251,7 @@
       <workItem from="1577014544046" duration="1878000" />
       <workItem from="1577620729568" duration="627000" />
       <workItem from="1577688485308" duration="7369000" />
-      <workItem from="1577717549949" duration="1938000" />
+      <workItem from="1577717549949" duration="3260000" />
     </task>
     <task id="LOCAL-00001" summary="리펙토링">
       <created>1577016393872</created>
@@ -302,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577719176672</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="StepNextJobConfiguration.class 파일추가 및 모든 배치실행을 막기위한 옵션 추가">
+      <created>1577750449691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1577750449691</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,11 +324,11 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="320" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577688743546" />
-    <state x="824" y="300" key="CommitChangelistDialog2" timestamp="1577719176449">
+    <state x="824" y="300" key="CommitChangelistDialog2" timestamp="1577750449029">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="456" y="106" key="CommitChangelistDialog2/0.23.1680.964@0.23.1680.964" timestamp="1577697042455" />
-    <state x="824" y="300" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1577719176449" />
+    <state x="824" y="300" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1577750449029" />
     <state width="1238" height="356" key="GridCell.Tab.0.bottom" timestamp="1577718940107">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
@@ -389,11 +389,11 @@
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="2518" height="228" key="GridCell.Tab.2.right/0.23.2560.1349@0.23.2560.1349" timestamp="1577017548510" />
-    <state x="881" y="437" key="Vcs.Push.Dialog.v2" timestamp="1577747787712">
+    <state x="881" y="437" key="Vcs.Push.Dialog.v2" timestamp="1577750451399">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="511" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.964@0.23.1680.964" timestamp="1577697047389" />
-    <state x="881" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1577747787712" />
+    <state x="881" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1577750451399" />
     <state x="1088" y="523" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577007297624">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
