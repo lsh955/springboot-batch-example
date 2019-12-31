@@ -23,6 +23,14 @@ public class StepNextConditionalJobConfiguration {
     private final JobBuilderFactory jobBuilderFactory;
     private final StepBuilderFactory stepBuilderFactory;
 
+
+    /**
+     * code scenario
+     * step1 실패 시나리오: step1 -> step3
+     * step1 성공 시나리오: step1 -> step2 -> step3
+     */
+
+
     @Bean
     public Job stepNextConditionalJob() {
         return jobBuilderFactory.get("stepNextConditionalJob")
