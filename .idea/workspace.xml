@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ca1348-0156-4100-97ba-9503a9d2b5f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbb44598-6f2c-4ed0-9372-91730804022f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbb44598-6f2c-4ed0-9372-91730804022f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/SimpleJobConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/SimpleJobConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,7 +238,7 @@
       <workItem from="1577688485308" duration="7369000" />
       <workItem from="1577717549949" duration="8144000" />
       <workItem from="1577863743293" duration="2732000" />
-      <workItem from="1577921210836" duration="376000" />
+      <workItem from="1577921210836" duration="442000" />
     </task>
     <task id="LOCAL-00001" summary="리펙토링">
       <created>1577016393872</created>
@@ -318,7 +317,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577867843200</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="정렬">
+      <created>1577921603030</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1577921603030</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -331,7 +337,8 @@
     <MESSAGE value="StepNextConditionalJobConfiguration.class 추가" />
     <MESSAGE value="필요주석추가" />
     <MESSAGE value="DeciderJobConfiguration.class 파일추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="DeciderJobConfiguration.class 파일추가" />
+    <MESSAGE value="정렬" />
+    <option name="LAST_COMMIT_MESSAGE" value="정렬" />
   </component>
   <component name="WindowStateProjectService">
     <state x="881" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577867235302">
@@ -343,9 +350,10 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="320" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577688743546" />
-    <state x="824" y="300" key="CommitChangelistDialog2" timestamp="1577867842660">
-      <screen x="0" y="23" width="2560" height="1349" />
+    <state x="618" y="214" key="CommitChangelistDialog2" timestamp="1577921601842">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="618" y="214" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577921601842" />
     <state x="456" y="106" key="CommitChangelistDialog2/0.23.1680.964@0.23.1680.964" timestamp="1577778153078" />
     <state x="824" y="300" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1577867842660" />
     <state width="846" height="268" key="GridCell.Tab.0.bottom" timestamp="1577868888743">
@@ -408,9 +416,10 @@
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="2518" height="228" key="GridCell.Tab.2.right/0.23.2560.1349@0.23.2560.1349" timestamp="1577017548510" />
-    <state x="881" y="437" key="Vcs.Push.Dialog.v2" timestamp="1577867844577">
-      <screen x="0" y="23" width="2560" height="1349" />
+    <state x="661" y="319" key="Vcs.Push.Dialog.v2" timestamp="1577921604465">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="661" y="319" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1577921604465" />
     <state x="511" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.964@0.23.1680.964" timestamp="1577778155153" />
     <state x="881" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1577867844577" />
     <state x="1088" y="523" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577007297624">

@@ -1,9 +1,10 @@
 spring:
+  batch:
+    job.names: ${job.name:NONE}   # Batch가 실행될때, Program arguments로 job.name 값이 넘어오면 해당 값과 일치하는 Job만 실행 한다.(값이 없을때 모든 배치가 실행되지 않도록 막는 역할)
+---
+spring:
   profiles:
     active: mariadb
-
-spring.batch.job.names: ${job.name:NONE}   # Batch가 실행될때, Program arguments로 job.name 값이 넘어오면 해당 값과 일치하는 Job만 실행 한다.(값이 없을때 모든 배치가 실행되지 않도록 막는 역할)
-
 ---
 spring:
   profiles: mariadb
