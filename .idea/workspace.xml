@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ca1348-0156-4100-97ba-9503a9d2b5f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/flow/DeciderJobConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,27 +209,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:테스트_데이터베이스" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:테스트_데이터베이스" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@2cf9c8f8" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:테스트_데이터베이스" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@1f862204" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:테스트_데이터베이스" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@7ee6817e" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -260,7 +231,7 @@
       <workItem from="1577620729568" duration="627000" />
       <workItem from="1577688485308" duration="7369000" />
       <workItem from="1577717549949" duration="8144000" />
-      <workItem from="1577863743293" duration="2134000" />
+      <workItem from="1577863743293" duration="2732000" />
     </task>
     <task id="LOCAL-00001" summary="리펙토링">
       <created>1577016393872</created>
@@ -332,7 +303,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577866536927</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="DeciderJobConfiguration.class 파일추가">
+      <created>1577867843200</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577867843200</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +322,8 @@
     <MESSAGE value="StepNextJobConfiguration.class 파일추가 및 모든 배치실행을 막기위한 옵션 추가" />
     <MESSAGE value="StepNextConditionalJobConfiguration.class 추가" />
     <MESSAGE value="필요주석추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="필요주석추가" />
+    <MESSAGE value="DeciderJobConfiguration.class 파일추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="DeciderJobConfiguration.class 파일추가" />
   </component>
   <component name="WindowStateProjectService">
     <state x="881" y="363" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577867235302">
@@ -356,35 +335,35 @@
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="320" y="457" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1577688743546" />
-    <state x="824" y="300" key="CommitChangelistDialog2" timestamp="1577866536716">
+    <state x="824" y="300" key="CommitChangelistDialog2" timestamp="1577867842660">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="456" y="106" key="CommitChangelistDialog2/0.23.1680.964@0.23.1680.964" timestamp="1577778153078" />
-    <state x="824" y="300" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1577866536716" />
-    <state width="1238" height="276" key="GridCell.Tab.0.bottom" timestamp="1577867240529">
+    <state x="824" y="300" key="CommitChangelistDialog2/0.23.2560.1349@0.23.2560.1349" timestamp="1577867842660" />
+    <state width="846" height="268" key="GridCell.Tab.0.bottom" timestamp="1577868888743">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="1126" height="203" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1577688508096" />
     <state width="798" height="183" key="GridCell.Tab.0.bottom/0.23.1680.964@0.23.1680.964" timestamp="1577860522020" />
-    <state width="1238" height="276" key="GridCell.Tab.0.bottom/0.23.2560.1349@0.23.2560.1349" timestamp="1577867240529" />
-    <state width="1238" height="276" key="GridCell.Tab.0.center" timestamp="1577867240528">
+    <state width="846" height="268" key="GridCell.Tab.0.bottom/0.23.2560.1349@0.23.2560.1349" timestamp="1577868888743" />
+    <state width="846" height="268" key="GridCell.Tab.0.center" timestamp="1577868888742">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="1126" height="203" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1577688508095" />
     <state width="798" height="183" key="GridCell.Tab.0.center/0.23.1680.964@0.23.1680.964" timestamp="1577860522019" />
-    <state width="1238" height="276" key="GridCell.Tab.0.center/0.23.2560.1349@0.23.2560.1349" timestamp="1577867240528" />
-    <state width="1238" height="276" key="GridCell.Tab.0.left" timestamp="1577867240528">
+    <state width="846" height="268" key="GridCell.Tab.0.center/0.23.2560.1349@0.23.2560.1349" timestamp="1577868888742" />
+    <state width="846" height="268" key="GridCell.Tab.0.left" timestamp="1577868888741">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="1126" height="203" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1577688508094" />
     <state width="798" height="183" key="GridCell.Tab.0.left/0.23.1680.964@0.23.1680.964" timestamp="1577860522019" />
-    <state width="1238" height="276" key="GridCell.Tab.0.left/0.23.2560.1349@0.23.2560.1349" timestamp="1577867240528" />
-    <state width="1238" height="276" key="GridCell.Tab.0.right" timestamp="1577867240529">
+    <state width="846" height="268" key="GridCell.Tab.0.left/0.23.2560.1349@0.23.2560.1349" timestamp="1577868888741" />
+    <state width="846" height="268" key="GridCell.Tab.0.right" timestamp="1577868888742">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="1126" height="203" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1577688508095" />
     <state width="798" height="183" key="GridCell.Tab.0.right/0.23.1680.964@0.23.1680.964" timestamp="1577860522019" />
-    <state width="1238" height="276" key="GridCell.Tab.0.right/0.23.2560.1349@0.23.2560.1349" timestamp="1577867240529" />
+    <state width="846" height="268" key="GridCell.Tab.0.right/0.23.2560.1349@0.23.2560.1349" timestamp="1577868888742" />
     <state width="1238" height="276" key="GridCell.Tab.1.bottom" timestamp="1577867240530">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
@@ -421,11 +400,11 @@
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state width="2518" height="228" key="GridCell.Tab.2.right/0.23.2560.1349@0.23.2560.1349" timestamp="1577017548510" />
-    <state x="881" y="437" key="Vcs.Push.Dialog.v2" timestamp="1577866538487">
+    <state x="881" y="437" key="Vcs.Push.Dialog.v2" timestamp="1577867844577">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
     <state x="511" y="245" key="Vcs.Push.Dialog.v2/0.23.1680.964@0.23.1680.964" timestamp="1577778155153" />
-    <state x="881" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1577866538487" />
+    <state x="881" y="437" key="Vcs.Push.Dialog.v2/0.23.2560.1349@0.23.2560.1349" timestamp="1577867844577" />
     <state x="1088" y="523" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577007297624">
       <screen x="0" y="23" width="2560" height="1349" />
     </state>
