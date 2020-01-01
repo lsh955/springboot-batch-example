@@ -60,7 +60,7 @@ public class StepNextConditionalJobConfiguration {
                      * ExitStatus를 FAILED로 지정한다.
                      * 해당 status를 보고 flow가 진행된다.
                      */
-                    contribution.setExitStatus(ExitStatus.FAILED);
+                    //contribution.setExitStatus(ExitStatus.FAILED);
 
                     return RepeatStatus.FINISHED;
                 })
