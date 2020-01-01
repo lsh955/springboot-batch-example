@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5ca1348-0156-4100-97ba-9503a9d2b5f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/bbb44598-6f2c-4ed0-9372-91730804022f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/bbb44598-6f2c-4ed0-9372-91730804022f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/SimpleJobConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/springboot_batch/job/SimpleJobConfiguration.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +13,11 @@
   </component>
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -232,6 +239,7 @@
       <workItem from="1577688485308" duration="7369000" />
       <workItem from="1577717549949" duration="8144000" />
       <workItem from="1577863743293" duration="2732000" />
+      <workItem from="1577921210836" duration="376000" />
     </task>
     <task id="LOCAL-00001" summary="리펙토링">
       <created>1577016393872</created>
